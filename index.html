@@ -41,7 +41,7 @@
 </head>
 
 <body id="is_home">
-   <header class="custom-header" id="custom-header">
+   <header class="custom-header header_black" id="custom-header">
 
       <div class="navbar navbar-expand-lg navbar-sticky border-0 fixed-top custom_header p-0 d-block">
          <div class="container nav_shadow">
@@ -74,12 +74,12 @@
                </div>
                <div class="primary_menu">
                   <ul class="d-md-flex p-0 m-0">
-                     <li> <a href="courses.html" class="navbar-nav-link">Home</a></li>
-                     <li> <a href="colleges.html" class="navbar-nav-link">MENSA INFO</a></li>
-                     <li> <a href="about.html" class="navbar-nav-link">MEMBERSHIP BENEFITS</a></li>
-                     <li> <a href="contact.html" class="navbar-nav-link">JOIN US</a></li>
-                     <li> <a href="contact.html" class="navbar-nav-link">FAQ</a></li>
-                     <li> <a href="contact.html" class="navbar-nav-link">SIGS</a></li>
+                     <li> <a href="index.html" class="navbar-nav-link">Home</a></li>
+                     <li> <a href="mensainfo.html" class="navbar-nav-link">MENSA INFO</a></li>
+                     <li> <a href="member-benefits.html" class="navbar-nav-link">MEMBERSHIP BENEFITS</a></li>
+                     <li> <a href="joinus.html" class="navbar-nav-link">JOIN US</a></li>
+                     <li> <a href="faq.html" class="navbar-nav-link">FAQ</a></li>
+                     <li> <a href="sigs.html" class="navbar-nav-link">SIGS</a></li>
                      <li> <a href="contact.html" class="navbar-nav-link is_last">CONTACT US</a></li>
                   </ul>
                   <div class="mobile_contact d-block d-md-none d-lg-none">
@@ -143,8 +143,8 @@
                         <div class="col-md-5">
                            <div class="slide-content">
                               <h2><span> MENSA</span>local, regional, national and international gatherings</h2>
-                               <h1>Mensa India <br>(Chennai) </h1>
-                               <p>Mensa provides a forum for intellectual exchange among members. Its activities include the exchange the ideas by lectures, discussions, journals, special-interest groups and local, regional, national </p>
+                               <h1>Mensa India (Chennai) </h1>
+                               <p class="text-white">Mensa provides a forum for intellectual exchange among members. Its activities include the exchange the ideas by lectures, discussions, journals, special-interest groups and local, regional, national </p>
                               <div class="btn_wrapper mt-5">
                                  <a href="#" class="btn_bg">
                                     Contact Us
@@ -165,8 +165,8 @@
                         <div class="col-md-5">
                            <div class="slide-content">
                               <h2><span> MENSA</span>local, regional, national and international gatherings</h2>
-                               <h1>Mensa India <br>(Chennai) </h1>
-                               <p>Mensa provides a forum for intellectual exchange among members. Its activities include the exchange the ideas by lectures, discussions, journals, special-interest groups and local, regional, national </p>
+                               <h1>Mensa India (Chennai) </h1>
+                               <p class="text-white">Mensa provides a forum for intellectual exchange among members. Its activities include the exchange the ideas by lectures, discussions, journals, special-interest groups and local, regional, national </p>
                               <div class="btn_wrapper mt-5">   
                                  <a href="#" class="btn_bg">
                                     Contact Us
@@ -304,7 +304,7 @@
                            <div class="row">
                               <div class="col-md-2">
                                  <div class="join_cta-icon">
-                                    <img src="https://mensachennai.org/images/joinus.png">
+                                    <img src="https://mensachennai.org/images/workouts.png">
                                  </div>
                               </div>
                               <div class="col-md-10">
@@ -418,7 +418,7 @@
 window.onload=function(){
   $slideshow = $('.slider').slick({
    //  dots:true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1000,
   arrows:true,
   prevArrow:'<button type="button" class="slick-prev"></button>',
@@ -486,7 +486,26 @@ window.onload=function(){
             }
       });
 
+
    </script>
+
+
+<!-- <script type="text/javascript">
+   $(document).ready(function(){
+   
+   $(".popup_wrapper.rec").css("display", "none");
+   setTimeout(function(){
+      $(".popup_wrapper.rec").css("display", "flex");
+   },30000);
+   
+   
+     $("#hide").click(function(){
+       $(".popup_wrapper.rec").css("display", "none");
+     });
+           
+   
+   });
+   </script> -->
 
    <!-- page animation section js end -->
 </body>
