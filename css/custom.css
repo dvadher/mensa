@@ -384,6 +384,16 @@ button.btn_form {
 	margin: 24px auto 0px;
 	cursor: poDM Sans;
 }
+.is_registration select {
+    height: 55px;
+    border: 0;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+
 .slide_item.is_one{
 	
 	background-image: url(../images/Event/banner_1.jpg);
@@ -423,7 +433,8 @@ button.btn_form {
     width: 100%;
     height: 100%;
     top: 0;
-    background: linear-gradient(90deg, rgb(0 0 0 / 80%) 0%, rgb(0 0 0 / 60%) 40%, rgba(0, 212, 255, 0) 60%);
+    background: #0009;
+    /* background: linear-gradient(90deg, rgb(0 0 0 / 80%) 0%, rgb(0 0 0 / 60%) 40%, rgba(0, 212, 255, 0) 60%); */
 }
 a.navbar-nav-link.is_last {
     background: #fff;
@@ -434,13 +445,10 @@ a.navbar-nav-link.is_last {
 .slider-wrap {
     background: #f4f9f6;
 }
-.slide-content h1 {
-    font-size: 100px;
-    line-height: 120%;
-}
+
 .slide-content h1 {
     color: #fff;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 100%;
     font-weight: 700;
 	margin: 24px 0px;
@@ -1097,6 +1105,71 @@ button.close {
     position: relative;
     z-index: 999;
 }
+
+.is_registration {
+    top: -100PX;
+    width: 60%;
+    margin: 0 auto;
+}
+.raio_grp label, .raio_grp {
+    gap: 10px;
+}
+label input {
+    height: auto;
+}
+span.text-red {
+    color: red;
+}
+.form_group.check {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+.form_group.check input {
+    width: 30px;
+    height: 30px;
+}
+.disable {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.form_btn-grp {
+    gap: 20px;
+    display: flex;
+}
+.text_icon {
+    width: 100px;
+    height: 100px;
+    background: #3b3b3b0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.test_header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 32px;
+}
+.benefit_item.is_test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+.text_header-content h5 {
+    font-size: 28px;
+    font-weight: 700;
+}
+.test-bottom-wrapper h6 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+
 
 /*=================================== media query css ===================================*/
 
