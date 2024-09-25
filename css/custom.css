@@ -588,7 +588,7 @@ h6.sub_heading {
 }
 h3{
 	color: #3b3b3b;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 100%;
     font-weight: 700;
     margin: 24px 0px;
@@ -1194,7 +1194,9 @@ span.text-red {
     position: relative;
     top: -70px;
 }
-
+.join_cta-icon img {
+    border-radius: 100%;
+}
 
 
 
