@@ -205,7 +205,9 @@ textarea{
 }
 
 .custom-logo {
-	width: 200px;
+    width: 200px;
+    height: 50px;
+    object-fit: contain;
 }
 
 .navbar {
@@ -1127,14 +1129,13 @@ span.text-red {
     display: flex;
 }
 .text_icon {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background: #3b3b3b0d;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 100%;
-    margin: 0 auto;
 }
 .text_header-content {
     width: 100%;
@@ -1152,6 +1153,7 @@ span.text-red {
     flex-direction: column;
     justify-content: space-between;
     gap: 24px;
+    padding-top: 32px;
 }
 .text_header-content h5 {
     font-size: 21px;
@@ -1160,11 +1162,17 @@ span.text-red {
     margin-top: 8px;
 }
 .test-bottom-wrapper h6 {
-    font-size: 21px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
-
+.test-bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 .is_registration .contact_heading h3 {
     font-size: 30px;
     line-height: 120%;
@@ -1197,8 +1205,27 @@ span.text-red {
 .join_cta-icon img {
     border-radius: 100%;
 }
+.tk_page-wrapper {
 
-
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f4f9f6;
+    padding: 100px 80px;
+    border-radius: 24px;
+}
+.tk_page{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /*=================================== media query css ===================================*/
