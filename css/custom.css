@@ -1152,7 +1152,6 @@ span.text-red {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 24px;
     padding-top: 32px;
 }
 .text_header-content h5 {
